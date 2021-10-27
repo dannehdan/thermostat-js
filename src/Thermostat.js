@@ -6,6 +6,7 @@ class Thermostat {
     this.temp = temp;
     this.MIN_TEMPERATURE = 10;
     this.powerSavingMode = true;
+    // this.energyUsageStatus = this.energyUsage();
   }
   
   up(increase=1) {

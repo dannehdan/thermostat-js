@@ -1,0 +1,15 @@
+Controls
+
+Up
+Down
+Reset
+PSM On
+PSM Off
+
+Displays
+
+Current temp
+Max temp
+Min temp
+PSM status
+Energy Usage
