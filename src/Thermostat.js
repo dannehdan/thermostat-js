@@ -40,13 +40,10 @@ class Thermostat {
 
   energyUsage() {
     if (this.temp < 18) {
-        console.log(1);
         return "low-usage";
      } else if (this.temp <= 25) {
-        console.log(1);
         return "medium-usage";
      } else if (this.temp > 25) {
-        console.log(1);
         return "high-usage";
     }
   }
