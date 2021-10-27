@@ -1,3 +1,8 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
 .low-usage {
   color: blue;
 }
@@ -7,5 +12,23 @@
 }
 
 .high-usage {
-  color: red
+  color: red;
+}
+
+button {
+  transition-duration: 0.4s;
+  color: black;
+  border: 2px solid black; /* Green */
+  background-color: #4caf50; /* Green */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: blue; /* Green */
 }
