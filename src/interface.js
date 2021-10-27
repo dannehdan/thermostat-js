@@ -4,8 +4,14 @@ const updateTemp = () => {
   document.querySelector("#temperature").className = therm.energyUsage();
   // updateEnergyUsage();
 };
-const updatePSM = () =>
-  (document.querySelector("#psm-status").innerText = therm.powerSavingMode);
+const updatePSM = () => {
+  if (therm.powerSavingMode) {
+    document.querySelector("#psm-status").innerText = "On";
+  } else {
+    document.querySelector("#psm-status").innerText = "Off";
+  }
+};
+
 // const updateEnergyUsage = () => document.querySelector('#energy-usage').innerText = therm.energyUsage();
 
 const fetchData = (baseUrl, city) => {
